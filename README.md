@@ -113,3 +113,16 @@ dengan tag <p> yg jarak enter nya tidak terlalu jauh.
 ```atribut tittle pada tag <img> digunakan untuk memberi judul pada gambar yg disisipkan, sedangkan
 atribut alt pada tag <img> digunakan untuk memberi deskripsi pada gambar yg disisipkan
 ```
+## 4.Untuk mengatur ukuran gambar, digunakan atribut width dan height. Agar tampilan gambar proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak? Berikan penjelasannya!
+```Untuk mempertahankan proporsi gambar, namun tetap membuat gambar menjadi besar/kecil, cantumkan
+hanya salah satu atribut saja (width saja atau height saja, namun tidak keduanya). Misalkan
+jika kita menetapkan atribut width=200px (tanpa mencantumkan height), maka web browser akan
+menampilkan gambar dengan lebar 200px, dan menghitung secara otomatis tinggi gambar agar gambar
+tetap proporsional.
+```
+## 5.Pada link tambahkan atribut target dengan nilai atribut bervariasi (_blank, _self, _top, _parent), apa yang terjadi pada masing-masing nilai antribut tersebut? 
+```Nilai _blank akan membuka link/halaman di tab baru.
+Nilai _self akan membuka link/halaman di tab saat ini.
+Nilai _top membuka link/halaman dan membatalkan semua frame.
+Nilai _parent membuka link/halaman pada parent frame.
+```
